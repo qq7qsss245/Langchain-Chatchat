@@ -45,7 +45,7 @@ MODEL_PATH = {
         "chatglm2-6b-32k": "THUDM/chatglm2-6b-32k",
 
         "baichuan2-13b": "baichuan-inc/Baichuan-13B-Chat",
-        "baichuan2-7b":"baichuan-inc/Baichuan2-7B-Chat",
+        "baichuan2-7b":"${MODEL_ROOT_PATH}/Baichuan2-7B-Chat",
 
         "baichuan-7b": "baichuan-inc/Baichuan-7B",
         "baichuan-13b": "baichuan-inc/Baichuan-13B",
