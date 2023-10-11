@@ -99,7 +99,7 @@ EMBEDDING_MODEL = "m3e-base" # 可以尝试最新的嵌入式sota模型：piccol
 EMBEDDING_DEVICE = "auto"
 
 # LLM 名称
-LLM_MODEL = "chatglm2-6b"
+LLM_MODEL = "baichuan2-7b"
 
 # LLM 运行设备。设为"auto"会自动检测，也可手动设定为"cuda","mps","cpu"其中之一。
 LLM_DEVICE = "auto"
