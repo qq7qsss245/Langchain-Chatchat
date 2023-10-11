@@ -3,7 +3,7 @@ import os
 
 # 可以指定一个绝对路径，统一存放所有的Embedding和LLM模型。
 # 每个模型可以是一个单独的目录，也可以是某个目录下的二级子目录
-MODEL_ROOT_PATH = ""
+MODEL_ROOT_PATH = "~/models"
 
 # 在以下字典中修改属性值，以指定本地embedding模型存储位置。支持3种设置方法：
 # 1、将对应的值修改为模型绝对路径
