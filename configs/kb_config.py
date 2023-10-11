@@ -8,10 +8,10 @@ DEFAULT_VS_TYPE = "faiss"
 CACHED_VS_NUM = 1
 
 # 知识库中单段文本长度(不适用MarkdownHeaderTextSplitter)
-CHUNK_SIZE = 250
+CHUNK_SIZE = 400
 
 # 知识库中相邻文本重合长度(不适用MarkdownHeaderTextSplitter)
-OVERLAP_SIZE = 50
+OVERLAP_SIZE = 100
 
 # 知识库匹配向量数量
 VECTOR_SEARCH_TOP_K = 3
