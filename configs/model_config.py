@@ -44,7 +44,7 @@ MODEL_PATH = {
         "chatglm2-6b-int4": "THUDM/chatglm2-6b-int4",
         "chatglm2-6b-32k": "THUDM/chatglm2-6b-32k",
 
-        "baichuan2-13b": "baichuan-inc/Baichuan-13B-Chat",
+        "baichuan2-13b": "${MODEL_ROOT_PATH}/Baichuan-13B-Chat",
         "baichuan2-7b":"${MODEL_ROOT_PATH}/Baichuan2-7B-Chat",
 
         "baichuan-7b": "baichuan-inc/Baichuan-7B",
@@ -71,7 +71,7 @@ MODEL_PATH = {
         "oasst-sft-4-pythia-12b-epoch-3.5":"OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
         "dolly-v2-12b":"databricks/dolly-v2-12b",    
         "stablelm-tuned-alpha-7b":"stabilityai/stablelm-tuned-alpha-7b",
-
+        "Llama-2-7b-hf":"${MODEL_ROOT_PATH}/Llama-2-7b-hf",    
         "Llama-2-13b-hf":"meta-llama/Llama-2-13b-hf",    
         "Llama-2-70b-hf":"meta-llama/Llama-2-70b-hf",
         "open_llama_13b":"openlm-research/open_llama_13b",    
@@ -99,7 +99,7 @@ EMBEDDING_MODEL = "text2vec-multilingua" # 可以尝试最新的嵌入式sota模
 EMBEDDING_DEVICE = "auto"
 
 # LLM 名称
-LLM_MODEL = "baichuan2-7b"
+LLM_MODEL = "Llama-2-7b-hf"
 
 # LLM 运行设备。设为"auto"会自动检测，也可手动设定为"cuda","mps","cpu"其中之一。
 LLM_DEVICE = "auto"
