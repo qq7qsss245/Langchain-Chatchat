@@ -96,4 +96,4 @@ text_splitter_dict = {
 }
 
 # TEXT_SPLITTER 名称
-TEXT_SPLITTER_NAME = "ChineseRecursiveTextSplitter"
+TEXT_SPLITTER_NAME = "SpacyTextSplitter"
