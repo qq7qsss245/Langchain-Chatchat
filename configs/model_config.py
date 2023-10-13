@@ -21,7 +21,7 @@ MODEL_PATH = {
         "text2vec": "GanymedeNil/text2vec-large-chinese",
         "text2vec-paraphrase": "shibing624/text2vec-base-chinese-paraphrase",
         "text2vec-sentence": "shibing624/text2vec-base-chinese-sentence",
-        "text2vec-multilingual": "shibing624/text2vec-base-multilingual",
+        "text2vec-multilingual": "text2vec-base-multilingual",
         "text2vec-bge-large-chinese": "shibing624/text2vec-bge-large-chinese",
         "m3e-small": "moka-ai/m3e-small",
         "m3e-base": "moka-ai/m3e-base",
